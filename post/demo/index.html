@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Demo &middot; Shane Leonard</title>
+        <meta name="description" content="Demo post for the blog theme">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="generator" content="Hugo 0.17" />
+        <meta name="robots" content="index,follow">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="http://shaneleonard.mecss/normalize.css">
+        <link rel="stylesheet" href="http://shaneleonard.mecss/highlight.css">
+        <link rel="stylesheet" href="http://shaneleonard.mecss/style.css">
+        <link rel="stylesheet" href="http://shaneleonard.mecss/overrides.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans+Condensed:300">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    </head>
+    <body>
+        
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-88753319-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+        <div id="wrapper">
+            <header class="site-header">
+                <div class="container">
+                    <div class="site-title-wrapper">
+                        
+                            <h1 class="site-title">
+                                <a title="Shane Makes" href="http://shaneleonard.me">Shane Makes</a>
+                            </h1>
+                        
+                        <a class="button-square" href="http://shaneleonard.meindex.xml"><i class="fa fa-rss"></i></a>
+                        
+                        
+                        
+                            <a class="button-square button-social hint--top" data-hint="Github" title="Github" href="https://github.com/shanemakes">
+                                <i class="fa fa-github-alt"></i>
+                            </a>
+                        
+                        
+                        
+                        
+
+                        <ul class="site-nav">
+                            
+    <li class="site-nav-item">
+        <a title="Blog" href="/">Blog</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a title="Projects" href="/project">Projects</a>
+    </li>
+
+    <li class="site-nav-item">
+        <a title="Tutorials" href="/series">Tutorials</a>
+    </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </header>
+
+            <div id="container">
+
+
+<div class="container">
+    <article class="post-container" itemscope="" itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+    <h1 class="post-title" itemprop="name headline">Demo</h1>
+    
+        <p class="post-description" itemprop="description">Demo post for the blog theme</p>
+    
+    <p class="post-date">
+        <span>Published <time datetime="2016-12-21" itemprop="datePublished">Wed, Dec 21, 2016</time></span>
+        <span>by</span>
+        <span itemscope="" itemprop="author" itemtype="https://schema.org/Person">
+            <span itemprop="name">
+                <a href="https://github.com/shaneleonard" itemprop="url" rel="author">Shane Leonard</a>
+            </span>
+        </span>
+    </p>
+</header>
+
+        <div class="post-content clearfix" itemprop="articleBody">
+    
+
+    
+
+<h1 id="section-1">Section 1</h1>
+
+<p>Here&rsquo;s some <code>inline code</code> and below is some example html:</p>
+
+<pre><code class="language-html">&lt;div id=&quot;wrapper&quot;&gt;
+    &lt;header class=&quot;site-header&quot;&gt;
+        &lt;div class=&quot;container&quot;&gt;
+            &lt;div class=&quot;site-title-wrapper&quot;&gt;
+                &lt;a class=&quot;site-logo&quot; title=&quot;{{ .Title }}&quot; href=&quot;{{ .Site.BaseURL }}&quot;&gt;
+                    &lt;img src=&quot;{{ . }}&quot; alt=&quot;{{ .Title }}&quot; /&gt;
+                &lt;/a&gt;
+                &lt;h1 class=&quot;site-title&quot;&gt;
+                    &lt;a title=&quot;{{ .Site.Title }}&quot; href=&quot;{{ .Site.BaseURL }}&quot;&gt;{{ .Site.Title }}&lt;/a&gt;
+                &lt;/h1&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/header&gt;
+&lt;/div&gt;    
+</code></pre>
+
+<h1 id="section-2">Section 2</h1>
+
+<p>A <em>bunch</em> of examples of different <strong>typesetting</strong> features:</p>
+
+<h2 id="bullet-lists-and-numbered-lists">Bullet Lists and Numbered Lists</h2>
+
+<p>Some body paragraph text as well as a cute little bullet list of items:</p>
+
+<ul>
+<li>Raindrops on roses</li>
+<li>Whiskers on kittens</li>
+<li>Brown paper packages
+
+<ul>
+<li>Tied up with string</li>
+<li>These are a few of my favorite things</li>
+</ul></li>
+<li>This is an extra long sentence designed to wrap around onto multiple lines
+when viewed on a desktop browser</li>
+<li>I am a reasonably happy and successful list item
+
+<ul>
+<li>I live in the shadow of the earlier list item</li>
+</ul></li>
+</ul>
+
+<p>You know what&rsquo;s even cooler than a bullet list? An ordered list. I can prove it,
+too: check out <a href="https://example.org">this site</a> and <a href="https://example.org">this one</a> and <a href="https://example.org">this
+site</a>. Totally credible!</p>
+
+<ol>
+<li>When the dog barks</li>
+<li>When the bee stings</li>
+<li>When I&rsquo;m feeling sad
+
+<ol>
+<li>I simply remember my favorite things</li>
+<li>And then I don&rsquo;t feel&hellip;</li>
+</ol></li>
+<li>&hellip;So bad</li>
+</ol>
+
+<h2 id="equations-and-math-typesetting">Equations and Math Typesetting</h2>
+
+<p>I use MathJax/LaTeX to write some compelling equations. For instance, consider
+the <code>$Q$</code>-learning model for a simple aircraft avoidance problem:</p>
+
+<div>
+\begin{align*}
+Q^* (b,a_{+1}) &= R(b, a_{+1}) + \gamma \sum_{b'} T(s' | s,a)U^* (s') \\
+&= \sum_{s} R(s,a)b(s) + \gamma \sum_{s'} T(s' | s,a)U^* (s') \\
+&= R(s) +  R(a_{+1}) + \gamma \sum_{s'} T(s' | s,a)U^* (s')
+\end{align*}
+</div>
+
+<h3 id="subsubsection-to-demonstrate-tables">Subsubsection to demonstrate tables</h3>
+
+<p>Since we are certain that <code>$h = 10$</code>, and we chose action <code>$a_{+1}$</code>, then <code>$\hat{h} = 10$</code>. We have the following possibilities for the next state:</p>
+
+<table>
+<thead>
+<tr>
+<th>h</th>
+<th>t</th>
+<th>r</th>
+<th><code>$T(s' \vert s,a)$</code></th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>10</td>
+<td>0</td>
+<td>1</td>
+<td>0.5 + 0.25</td>
+</tr>
+
+<tr>
+<td>9</td>
+<td>0</td>
+<td>1</td>
+<td>0.25</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="figures-and-images">Figures and Images</h2>
+
+<p>I can either directly include an image without a caption, or make a &lsquo;figure&rsquo;
+that includes a caption. The figure is created using the shortcode syntax
+provided by <a href="https://gohugo.io">Hugo</a>.</p>
+
+<p>Here is an image included with the default Markdown syntax:</p>
+
+<p><img src="../../../img/ee251_if_sim_result.png" alt="My default image" /></p>
+
+<p>Here is a figure with a caption and title:</p>
+
+
+<figure >
+    
+        <img src="/img/beautiful_mountains.png" alt="A screenshot of my lovely Desktop" />
+    
+    
+    <figcaption>
+        <h4>Screenshot</h4>
+        <p>
+        A screenshot of my lovely Desktop
+        
+            
+        
+        </p> 
+    </figcaption>
+    
+</figure>
+
+
+<h2 id="embedded-videos">Embedded Videos</h2>
+
+<p>I can also easily embed YouTube videos with a shortcode.</p>
+
+
+<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/dQw4w9WgXcQ" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0"></iframe>
+ </div>
+
+
+<p>Play it, I dare you.</p>
+
+</div>
+
+        <footer class="post-footer clearfix">
+    
+        <p class="post-tags">
+            <span>Tagged:</span>
+            
+                 <a href="/tags/demo/">demo</a>
+            
+                 <a href="/tags/markdown/">markdown</a>
+            
+                 <a href="/tags/hugo/">hugo</a>
+            
+        </p>
+    
+
+    <div class="share">
+        <a class="icon-twitter" href="https://twitter.com/share?text=Demo&url=http%3a%2f%2fshaneleonard.me%2fpost%2fdemo%2f"
+            onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+            <i class="fa fa-twitter"></i>
+            <span class="hidden">Twitter</span>
+        </a>
+
+        <a class="icon-facebook" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fshaneleonard.me%2fpost%2fdemo%2f"
+            onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+            <i class="fa fa-facebook"></i>
+            <span class="hidden">Facebook</span>
+        </a>
+
+        <a class="icon-google-plus" href="https://plus.google.com/share?url=http%3a%2f%2fshaneleonard.me%2fpost%2fdemo%2f"
+           onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+           <i class="fa fa-google-plus"></i>
+            <span class="hidden">Google+</span>
+        </a>
+    </div>
+</footer>
+
+        
+    <div class="comments">
+        <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'shaneleonard';
+    var disqus_identifier = 'http:\/\/shaneleonard.me\/post\/demo\/';
+    var disqus_title = 'Demo';
+    var disqus_url = 'http:\/\/shaneleonard.me\/post\/demo\/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </div>
+
+    </article>
+</div>
+
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="site-title-wrapper">
+                    <h1 class="site-title">
+                        <a title="Shane Makes" href="http://shaneleonard.me">Shane Makes</a>
+                    </h1>
+                    <a class="button-square button-jump-top js-jump-top" href="#">
+                        <i class="fa fa-angle-up"></i>
+                    </a>
+                </div>
+
+                <p class="footer-copyright">
+                    <span>&copy; 2016 / Powered by <a href="https://gohugo.io/">Hugo</a></span>
+                </p>
+                <p class="footer-copyright">
+                    <span><a href="https://github.com/roryg/ghostwriter">Ghostwriter theme</a> By <a href="http://jollygoodthemes.com">JollyGoodThemes</a></span>
+                    <span>/ <a href="https://github.com/jbub/ghostwriter">Ported</a> to Hugo By <a href="https://github.com/jbub">jbub</a></span>
+                </p>
+            </div>
+        </footer>
+
+        <script src="http://shaneleonard.mejs/jquery-1.11.3.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/highlight.min.js"></script>
+        <script src="http://shaneleonard.mejs/jquery.fitvids.js"></script>
+        <script src="http://shaneleonard.mejs/scripts.js"></script>
+        <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+        <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+          tex2jax: {
+            inlineMath: [['$','$'], ['\\(','\\)']],
+            displayMath: [['$$','$$'], ['\[','\]']],
+            processEscapes: true,
+            processEnvironments: true,
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+            TeX: { equationNumbers: { autoNumber: "AMS" },
+                 extensions: ["AMSmath.js", "AMSsymbols.js"] }
+          }
+        });
+        </script>
+
+        <script type="text/x-mathjax-config">
+          MathJax.Hub.Queue(function() {
+            
+            
+            
+            var all = MathJax.Hub.getAllJax(), i;
+            for(i = 0; i < all.length; i += 1) {
+                all[i].SourceElement().parentNode.className += ' has-jax';
+            }
+        });
+        </script>
+    </body>
+</html>
+
