@@ -52,6 +52,12 @@ a, code,
     text-transform: none;
 }
 
+.post-date:after, .blog-description:after
+{
+    border-bottom: 0px;
+    margin: 20px auto 0;
+}
+
 .site-title a,
 .button-square, 
 .button:hover, 
