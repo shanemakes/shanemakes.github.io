@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shane Makes</title>
-    <link>http://shaneleonard.me/tags/markdown/index.xml</link>
+    <link>https://shanemakes.github.io/tags/markdown/index.xml</link>
     <description>Recent content on Shane Makes</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Shane Leonard</copyright>
-    <atom:link href="http://shaneleonard.me/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://shanemakes.github.io/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Demo</title>
-      <link>http://shaneleonard.me/post/demo/</link>
+      <link>https://shanemakes.github.io/post/demo/</link>
       <pubDate>Wed, 21 Dec 2016 21:37:55 -0700</pubDate>
       
-      <guid>http://shaneleonard.me/post/demo/</guid>
+      <guid>https://shanemakes.github.io/post/demo/</guid>
       <description>
 
 &lt;h1 id=&#34;section-1&#34;&gt;Section 1&lt;/h1&gt;
@@ -138,7 +138,7 @@ provided by &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;.&lt;/p&gt;
 
 &lt;figure &gt;
     
-        &lt;img src=&#34;http://shaneleonard.me/img/beautiful_mountains.png&#34; alt=&#34;A screenshot of my lovely Desktop&#34; /&gt;
+        &lt;img src=&#34;https://shanemakes.github.io/img/beautiful_mountains.png&#34; alt=&#34;A screenshot of my lovely Desktop&#34; /&gt;
     
     
     &lt;figcaption&gt;
