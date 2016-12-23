@@ -17,11 +17,11 @@ h1 {
     font-family: "Open Sans Condensed";
     font-size: 20px;
 }
-
-.site-title a 
+.site-nav a:hover
 {
-    font-family: "Roboto Slab";
+    border-bottom: 1px solid #900;
 }
+
 
 ul, ol
 {
