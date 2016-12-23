@@ -23,8 +23,11 @@ h1 {
     font-family: "Roboto Slab";
 }
 
-.site-title-wrapper {
-}  
+ul, ol
+{
+    list-style-position: outside;
+    margin-left: 30px;
+}
 
 ul.site-nav
 {
