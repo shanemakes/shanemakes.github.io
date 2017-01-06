@@ -18,6 +18,8 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300&subset=latin,cyrillic-ext,latin-ext,cyrillic">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans+Condensed:300">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.bundle.min.js"></script>
     </head>
     <body>
         
@@ -327,8 +329,8 @@ provided by <a href="https://gohugo.io">Hugo</a>.</p>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.5/highlight.min.js"></script>
         <script src="https://shanemakes.github.io/js/jquery.fitvids.js"></script>
         <script src="https://shanemakes.github.io/js/scripts.js"></script>
-        <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
+        <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
         <script type="text/x-mathjax-config">
         MathJax.Hub.Config({
           messageStyle: 'none',
@@ -344,7 +346,6 @@ provided by <a href="https://gohugo.io">Hugo</a>.</p>
           }
         });
         </script>
-
         <script type="text/x-mathjax-config">
           MathJax.Hub.Queue(function() {
             
@@ -355,6 +356,12 @@ provided by <a href="https://gohugo.io">Hugo</a>.</p>
                 all[i].SourceElement().parentNode.className += ' has-jax';
             }
         });
+        </script>
+
+        <script type="text/javascript" src="https://cdn.rawgit.com/knsv/mermaid/6.0.0/dist/mermaid.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/knsv/mermaid/6.0.0/dist/mermaid.css">
+        <script>
+            mermaid.initialize({startOnLoad:true});
         </script>
     </body>
 </html>
